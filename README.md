@@ -2,8 +2,6 @@
 
 This file demonstrates, how to configure the **Baudrate** of **HC-05** bluetooth module with an **Arduino** board.
 
-# Wiring
-
 Most HC-05 modules require a 5V operating voltage. However, the TX/RX pins work at **3.3V**.
 
 Although most modules have on-board current limiting circuit which allows the TX/RX pins to work with 5V signal, a 5V to 3.3V circuit (a simple **voltage divider**) at the Arduino TX pin is recommended.
