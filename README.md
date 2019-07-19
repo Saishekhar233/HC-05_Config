@@ -47,17 +47,17 @@ For HC-05's AT command document click [HERE](HC-0305_serial_module_AT_commamd_.p
 
 Once you uploaded the sketch onto your Arduino, open the serial monitor at 9600 baud rate, select CR+NL, and you should be able to send AT commands to the HC-05.
 
-Every time you transmit “AT” (without the quotes), the HC-05 should reply with “OK”
+Every time you transmit “**AT**” (without the quotes), the HC-05 should reply with “**OK**”
 
-To check your HC-05’s version, enter “AT+VERSION”
+To check your HC-05’s version, enter “**AT+VERSION**”
 
-To change the name of the module, enter “AT+NAME=MYBTNAME”
+To change the name of the module, enter “**AT+NAME=MYBTNAME**”
 
-To check the current password, enter “AT+PSWD”
+To check the current password, enter “**AT+PSWD**”
 
-To change the password, enter “AT+PSWD=2345”
+To change the password, enter “**AT+PSWD=2345**”
 
-To check the current baud rate, enter “AT+UART”
+To check the current baud rate, enter “**AT+UART**”
 
 **To change the BT baud rate to 115200, 1 stop bit, 0 parity, enter “AT+UART=115200,1,0”**
 
