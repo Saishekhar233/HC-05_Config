@@ -25,7 +25,7 @@ Although most modules have on-board current limiting circuit which allows the TX
 
 The figure below describes the interface between the Arduino and HC-05 module :
 
-![Arduino-HC05-Wiring](Arduino-HC05-Wiring.jpeg)
+![Arduino-HC05-Wiring](home/dt0004//Projects/Mega_CAN_BLE_Working/HC-05_config/Arduino-HC05-Wiring.jpeg)
 
 	With level shifting (all 1k resistor)
 
